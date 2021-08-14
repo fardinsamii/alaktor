@@ -8,6 +8,9 @@
     box-shadow: 0px 5px 18px rgba(50, 50, 50, 0.93);
     max-width: 1170px;
 }
+.mobile-view{
+    display: none !important;
+}
 ul{
     list-style-type: none;
 }
@@ -21,7 +24,13 @@ ul{
     padding: 10px;
     font-weight: bold;
 }
+.text-blue{
+    color: #002a71;
+}
 /* header starts */
+.bg-blue{
+    background-color: #002a71;
+}
 .bg-orange{
     background-color: rgb(252, 185, 90);;
 }
@@ -41,7 +50,7 @@ ul{
 /* header ends */
 /* main starts */
 main{
-    margin-top: 20px;
+    margin-top: 25px;
 }
 /* sidebar starts */
 .sidebar .name{
@@ -85,9 +94,26 @@ footer{
 }
 /* project ends */
 /* research area */
+.research_single{
+    margin-bottom: 20px;
+}
+.research_singleP:last-child{
+    margin-bottom: 0px;
+}
 .research-area .research_thumb{
-    width: 150px;
+    min-width: 150px;
     margin-right: 20px;
 }
 /* research ends */
 /* research page css ends */
+
+
+/* remove side bar */
+@media only screen and (max-width: 992px) {
+    .desktop-side{
+        display: none;
+    }
+    .mobile-view{
+        display: flex !important;
+    }
+}
