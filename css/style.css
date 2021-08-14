@@ -1,0 +1,94 @@
+.container-main{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0px 5px 18px rgba(50, 50, 50, 0.93);
+    -moz-box-shadow: 0px 5px 18px rgba(50, 50, 50, 0.93);
+    box-shadow: 0px 5px 18px rgba(50, 50, 50, 0.93);
+    max-width: 1170px;
+}
+ul{
+    list-style-type: none;
+}
+.color-red{
+    color:#DF0101;
+}
+.heading h4{
+    background-color: #002a71;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+}
+/* header starts */
+.bg-orange{
+    background-color: rgb(252, 185, 90);;
+}
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top: 3px solid #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #1a1a1a;
+    padding: 15px 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+    background-color: #002a71;
+}
+/* header ends */
+/* main starts */
+main{
+    margin-top: 20px;
+}
+/* sidebar starts */
+.sidebar .name{
+    margin-bottom: 5px;
+}
+.sidebar .owner ul li a{
+    text-decoration: none;
+}
+/* sidebar ends */
+/* research starts */
+.research h3{
+    font-size: 20px;
+}
+/* research ends */
+/* footer starts */
+footer{
+    background-color: #002a71;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+.copyright p{
+    color: #fff;
+    font-size: 14px;
+}
+/* footer ends */
+/* main ends */
+
+/* home page css ends */
+
+/* research page css starts */
+/* project starts */
+.single_project{
+    margin-bottom: 15px;
+}
+.single_project:last-child{
+    margin-bottom: 0px;
+}
+.projects .project_thumb{
+    min-width: 60px;
+    max-width: 61px;
+    margin-right: 10px;
+}
+/* project ends */
+/* research area */
+.research-area .research_thumb{
+    width: 150px;
+    margin-right: 20px;
+}
+/* research ends */
+/* research page css ends */
